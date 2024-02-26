@@ -1,0 +1,50 @@
+WED WEBSITE FEATURES:
+
+- ADD A CUSTOM DOMAIN NAME
+
+- PHOTO GALLERIES = create an album chronicling your lives together. and share photos and videos with friends, family or your wedding party.
+
+- REGISTRY INFORMATION
+
+- TAKE RSVPS = bring your wedding invitations and RSVP's online with a customizable form and keep your guest list organized
+
+
+
+***************************
+package 1
+
+1 page
+sections : landing section, our story, details, rsvp
+
+landing section: Title, date, description
+
+our story: story page 1 section
+
+details section: where, wear/dress code, 1 section
+
+rsvp section: form
+
+****************************
+package 2
+
+2 pages (landing page, details)
+
+landing page: ( hero section, countdown timer, rsvp popup)
+schedule section
+Our story section
+couple collage
+
+
+
+event page: (hero section,
+
+section: Welcome Reception
+
+details page:
+section: dress code
+section: address for ceremony and party
+section: (info cards for Maid of Honor, bridesmaid, Best Man, Groomsman, flower girls , ring bearer)
+section: places to stay
+
+
+

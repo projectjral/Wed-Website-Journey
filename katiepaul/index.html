@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link href="https://fonts.cdnfonts.com/css/dosis" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lora-4" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Katie & Paul | Our Wedding Story</title>
+</head>
+
+<body>
+    <header id="landingHeader">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+    </header>
+    <section>
+        <div class="heroImage">
+            <div class="heroOverlay"></div>
+            <div class="heroContent">
+                <h1 class="heroTitle">Katie & Paul</h1>
+                <div class="date">
+                    <div class="month">
+                        <div class="monthNum datebox">3</div>
+                        <span>Months</span>
+                    </div>
+                    <div class="days">
+                        <div class="daysNum datebox">27</div>
+                        <span>Days</span>
+                    </div>
+                    <div class="hours">
+                        <div class="hoursNum datebox">6</div>
+                        <span>Hours</span>
+                    </div>
+                    <div class="minutes">
+                        <div class="minutesNum datebox">3</div>
+                        <span>Minutes</span>
+                    </div>
+                    <div class="seconds">
+                        <div class="secondsNum datebox">2</div>
+                        <span>Seconds</span>
+                    </div>
+
+                </div>
+                <h3 class="leftuntil">Left Until <span class="wedDate">&#8212 3 July 2024 &#8212</span></h3>
+
+            </div>
+        </div>
+        <div class="heroLower">
+            <div class="heroLowerLeft">
+                <h2 class="saying">We're getting married!</h2>
+                <p>Come join us as we celebrate our love!</p>
+            </div>
+            <button class="rsvpBtn btn--show-modal">RSVP</button>
+        </div>
+
+
+    </section>
+
+    <footer></footer>
+
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <div class="mhContainer">
+            <img src="img/logo.png" alt="" class="mhContainerLeft">
+            <div class="mhContainerRight">
+                <h3>Katie and Paul Wedding</h3>
+                <p>8th September 2024</p>
+            </div>
+        </div>
+
+        <form action="/action_page.php">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Your name.." required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="abc@yahoo.com">
+
+            <label class="custom-radio">
+                Will you be able to attend?
+            </label>
+            <div class="radio-options">
+                <label>
+                    <input type="radio" name="attendance" value="yes" class="attendance-radio" required>
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="attendance" value="no" class="attendance-radio">
+                    No
+                </label>
+            </div>
+
+            <div class="">
+                <label for="guests" class="guest-options">Number of guests (as specified in invitation)</label>
+                <input type="number" id="guests" name="guests" placeholder="No. of guests(incl. self)" required>
+            </div>
+
+            <textarea class="invComment" name="invComment" id="invComment" cols="30" rows="10"
+                placeholder="text"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+    <div class="overlay hidden"></div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
